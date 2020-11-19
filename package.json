@@ -11,8 +11,7 @@
     "clean": "rimraf dist",
     "dev": "webpack --config ./webpack.config.js  --mode development --watch --progress",
     "build": "webpack --config ./webpack.config.js  --mode production --progress",
-    "deploy": "node deploy.js",
-    "prepack": "npm run build"
+    "deploy": "node deploy.js"
   },
   "repository": {
     "type": "git",
